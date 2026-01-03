@@ -4,6 +4,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import "@radix-ui/themes/styles.css";
 import NavBar from "./(landing)/components/NavBar/NavBar";
+import Footer from "./(landing)/components/Footer/Footer";
 
 
 const geistSans = Geist({
@@ -34,6 +35,7 @@ const RootLayout = ({
         <Theme>
           <NavBar />
           {children}
+          <Footer />
         </Theme>
       </body>
     </html>
