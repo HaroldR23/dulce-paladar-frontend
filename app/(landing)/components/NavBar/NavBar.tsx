@@ -36,7 +36,7 @@ const NavBar = () => {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            <div className="w-10 h-10 bg-gradient-to-br from-[#FF6B6B] to-[#FFE5E5] rounded-full flex items-center justify-center">
+            <div className="w-10 h-10 bg-linear-to-br from-[#FF6B6B] to-[#FFE5E5] rounded-full flex items-center justify-center">
               <span className="text-white font-bold">DP</span> {/* Here should be the real icon */}
             </div>
             <span className="font-['Cormorant'] text-2xl text-foreground">
@@ -44,15 +44,12 @@ const NavBar = () => {
             </span>
           </motion.a>
 
-          {/* Desktop Navigation */}
           <NavBarDesktop />
 
-          {/* Mobile Menu Button */}
           <MobileButton isMobileMenuOpen={isMobileMenuOpen} setIsMobileMenuOpen={setIsMobileMenuOpen} />
         </div>
       </div>
 
-      {/* Mobile Menu */}
       <MobileMenu isMobileMenuOpen={isMobileMenuOpen} setIsMobileMenuOpen={setIsMobileMenuOpen} />
     </motion.header>
   );
