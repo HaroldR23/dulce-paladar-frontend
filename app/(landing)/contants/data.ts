@@ -1,3 +1,5 @@
+import { Award, Clock, Heart, Users } from "lucide-react";
+
 export const menuItems = [
     { name: 'Catálogo', href: '#catalogo' },
     { name: 'Tortas Personalizadas', href: '#personalizadas' },
@@ -59,4 +61,12 @@ export const products = [
     image: '/makeup_cake.jpg',
     tags: [],
   },
+];
+
+
+export const stats = [
+  { icon: Heart, value: '500+', label: 'Clientes felices' },
+  { icon: Award, value: '4 años', label: 'De experiencia' },
+  { icon: Users, value: '1000+', label: 'Tortas creadas' },
+  { icon: Clock, value: '24/7', label: 'Atención online' },
 ];
