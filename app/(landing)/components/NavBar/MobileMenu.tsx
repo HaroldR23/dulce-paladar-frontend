@@ -1,6 +1,6 @@
 import { motion, AnimatePresence } from 'motion/react';
 import { menuItems } from '../../contants/data';
-import { MobileMenuProps } from '../props/NavBarProps';
+import { MobileMenuProps } from '../props/navBarProps';
 
 const MobileMenu = ({ isMobileMenuOpen, setIsMobileMenuOpen }: MobileMenuProps) => {
   return (

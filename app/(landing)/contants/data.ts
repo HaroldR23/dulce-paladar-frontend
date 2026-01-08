@@ -70,3 +70,47 @@ export const stats = [
   { icon: Users, value: '1000+', label: 'Tortas creadas' },
   { icon: Clock, value: '24/7', label: 'Atención online' },
 ];
+
+export const SERVINGS_OPTIONS = [
+  { value: "10", label: "10 porciones" },
+  { value: "15", label: "15 porciones" },
+  { value: "20", label: "20 porciones" },
+  { value: "30", label: "30 porciones" },
+  { value: "40", label: "40 porciones" },
+  { value: "50+", label: "50+ porciones" },
+];
+
+export const FLAVOR_OPTIONS = [
+  { value: "", label: "Selecciona un sabor" },
+  { value: "Vainilla", label: "Vainilla" },
+  { value: "Chocolate", label: "Chocolate" },
+  { value: "Red Velvet", label: "Red Velvet" },
+  { value: "Limón", label: "Limón" },
+  { value: "Zanahoria", label: "Zanahoria" },
+  { value: "Café", label: "Café" },
+];
+
+export const FILLING_OPTIONS = [
+  { value: "", label: "Selecciona un relleno" },
+  { value: "Dulce de Leche", label: "Dulce de Leche" },
+  { value: "Crema Chantilly", label: "Crema Chantilly" },
+  { value: "Mousse de Chocolate", label: "Mousse de Chocolate" },
+  { value: "Frutas Frescas", label: "Frutas Frescas" },
+  { value: "Crema Pastelera", label: "Crema Pastelera" },
+  { value: "Nutella", label: "Nutella" },
+];
+
+export const GALLERY_IMAGES_INFO = [
+  "/beauty_cake.jpg",
+  "/beers_cake.jpg",
+  "/car_cake.jpg",
+  "/coronabeer_cake.jpg",
+];
+
+export const WHY_CHOOSE_OPTIONS = [
+  'Ingredientes de primera calidad',
+  'Diseños 100% personalizados',
+  'Entrega puntual garantizada',
+  'Más de 500 clientes satisfechos',
+  'Opciones sin TACC y veganas',
+];

@@ -2,6 +2,7 @@
 
 import AboutUs from './components/AboutUs/AboutUs';
 import Catalog from './components/Catalog/Catalog';
+import CustomCakeQuote from './components/CustomCakeQuote/CustomCakeQuote';
 import Hero from './components/Hero/Hero';
 
 
@@ -10,6 +11,7 @@ const LandingPage = () => {
     <div> 
       <Hero />
       <Catalog />
+      <CustomCakeQuote />
       <AboutUs />
     </div>
   );
