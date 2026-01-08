@@ -1,5 +1,5 @@
 import { Menu, X } from "lucide-react";
-import { MobileMenuProps } from "../props/NavBarProps";
+import { MobileMenuProps } from "../props/navBarProps";
 
 const MobileButton = ({ isMobileMenuOpen, setIsMobileMenuOpen }: MobileMenuProps) => {
   return (
