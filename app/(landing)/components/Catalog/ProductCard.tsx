@@ -2,14 +2,7 @@ import { AnimatePresence, motion } from 'motion/react';
 import { Eye, X } from 'lucide-react';
 import Image from 'next/image';
 import { useState } from 'react';
-
-interface ProductCardProps {
-  name: string;
-  price: string;
-  image: string;
-  tags?: string[];
-  id?: number;
-}
+import { ProductCardProps } from '../props/productCardProps';
 
 const ProductCard = ({
   name,
@@ -21,9 +14,9 @@ const ProductCard = ({
   const [open, setOpen] = useState(false);
 
   return (
-    <>
+    <div key={id}>
       <motion.div
-        className="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300"
+        className="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl"
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
@@ -34,10 +27,15 @@ const ProductCard = ({
           
           {/* Shared Image */}
           <motion.div
-            layoutId={`product-image-${name}-${id}`}
             className="relative w-full h-full"
           >
-            <Image src={image} alt={name} fill className="object-cover" />
+            <Image 
+              src={image} 
+              alt={name} 
+              fill 
+              className="object-cover" 
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" 
+            />
           </motion.div>
 
           {/* Tags (NO animados con layoutId) */}
@@ -93,17 +91,16 @@ const ProductCard = ({
           >
             <div
               className="relative max-w-4xl w-full aspect-square"
-              onClick={(e) => e.stopPropagation()}
             >
               {/* Shared Image */}
               <motion.div
-                layoutId={`product-image-${name}-${id}`}
                 className="relative w-full h-full bg-[#FFD6E7]/55 backdrop-blur-sm rounded-xl overflow-hidden"
               >
                 <Image
                   src={image}
                   alt={name}
                   fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   className="object-contain rounded-xl"
                 />
               </motion.div>
@@ -133,7 +130,7 @@ const ProductCard = ({
           </motion.div>
         )}
       </AnimatePresence>
-    </>
+    </div>
   );
 };
 

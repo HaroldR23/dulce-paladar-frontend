@@ -1,12 +1,12 @@
 import { motion } from 'motion/react';
 
-import { products } from "../../contants/data";
 import ProductCard from './ProductCard';
-
+import { productsByCategory } from '../../contants/data';
+// old products category grid implementation (unnused)
 const ProductsGrid = () => {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-        {products.map((product, index) => (
+        {productsByCategory["cakes"].map((product, index) => (
           <motion.div
             key={product.id}
             initial={{ opacity: 0, y: 30 }}
