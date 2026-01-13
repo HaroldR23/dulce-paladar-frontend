@@ -5,7 +5,7 @@ import { motion } from 'motion/react';
 const ViewAllButton = () => {
   return (
     <motion.div
-      className="text-center"
+      className="text-center pt-5"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       viewport={{ once: true }}

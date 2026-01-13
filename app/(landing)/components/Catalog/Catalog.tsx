@@ -1,5 +1,5 @@
 import CatalogHeader from './CatalogHeader';
-import ProductsGrid from './ProductsGrid';
+import CategoryList from './Category/CategoryList';
 import ViewAllButton from './ViewAllButton';
 
 const Catalog = () => {
@@ -7,7 +7,7 @@ const Catalog = () => {
     <section id="catalogo" className="py-20 bg-linear-to-b from-white to-[#FAF7F2]">
       <div className="container mx-auto px-4 lg:px-8">
         <CatalogHeader />
-        <ProductsGrid />
+        <CategoryList />
         <ViewAllButton />
       </div>
     </section>
