@@ -3,7 +3,7 @@ import { ChevronDown } from "lucide-react";
 import { CategoryHeaderProps, CategoryKey } from "../../props/categoryProps";
 
 
-const CategoryHeader = ({ category, isExpanded, toggleCategory, products, info }: CategoryHeaderProps) => {
+const CategoryHeader = ({ category, isExpanded, toggleCategory, info, visibleCount }: CategoryHeaderProps) => {
   return (
     <button 
       onClick={() => toggleCategory(category as CategoryKey)}
@@ -35,7 +35,7 @@ const CategoryHeader = ({ category, isExpanded, toggleCategory, products, info }
       </div>
       <div className="flex items-center space-x-3">
         <span className="text-sm text-foreground/50 hidden sm:block">
-          {products.length} producto{products.length > 1 ? 's' : ''}
+          {visibleCount} producto{visibleCount > 1 ? 's' : ''}
         </span>
         <motion.div
           animate={{ rotate: isExpanded ? 180 : 0 }}

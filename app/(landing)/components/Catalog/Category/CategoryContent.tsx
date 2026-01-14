@@ -2,8 +2,9 @@ import { motion } from "motion/react";
 
 import { CategoryContentProps } from "../../props/categoryProps";
 import ProductCard from "../ProductCard";
+import { ArrowRight } from "lucide-react";
 
-const CategoryContent = ({ isExpanded, products }: CategoryContentProps) => {
+const CategoryContent = ({ isExpanded, products, hasMore, increaseVisible, category }: CategoryContentProps) => {
   return (
     <motion.div
       initial={false}
@@ -30,6 +31,26 @@ const CategoryContent = ({ isExpanded, products }: CategoryContentProps) => {
           ))}
         </div>
       </div>
+      {
+        hasMore && (
+        <motion.div
+          className="text-center p-5 cursor-pointer"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.5 }}
+        >
+          <motion.div
+            className="inline-flex items-center space-x-2 px-8 py-4 bg-white border-2 border-[#FF6B6B] text-[#FF6B6B] rounded-full hover:bg-[#FF6B6B] hover:text-white transition-all duration-300 shadow-lg group"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            onClick={() => increaseVisible(category)}
+          >
+            <span>Ver más</span>
+            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-200" />
+          </motion.div>
+        </motion.div>
+      )}
     </motion.div>
   );
 };

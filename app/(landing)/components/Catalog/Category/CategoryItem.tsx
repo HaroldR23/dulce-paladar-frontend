@@ -3,7 +3,17 @@ import CategoryHeader from "./CategoryHeader";
 import { CategoryItemProps } from "../../props/categoryProps";
 import CategoryContent from "./CategoryContent";
 
-const CategoryItem = ({ category, categoryIndex, isExpanded, toggleCategory, products, info }: CategoryItemProps) => {
+const CategoryItem = ({ 
+  category, 
+  categoryIndex, 
+  isExpanded, 
+  toggleCategory, 
+  products, 
+  info, 
+  hasMore, 
+  increaseVisible, 
+  visibleCount
+}: CategoryItemProps) => {
 
   return (
     <motion.div
@@ -14,15 +24,19 @@ const CategoryItem = ({ category, categoryIndex, isExpanded, toggleCategory, pro
       transition={{ delay: categoryIndex * 0.1 }}
     >
       <CategoryHeader 
-      category={category} 
-      isExpanded={isExpanded} 
-      toggleCategory={toggleCategory} 
-      products={products} 
-      info={info} />
+        category={category} 
+        isExpanded={isExpanded} 
+        toggleCategory={toggleCategory} 
+        info={info} 
+        visibleCount={visibleCount}
+      />
 
       <CategoryContent 
         isExpanded={isExpanded} 
         products={products} 
+        hasMore={hasMore}
+        increaseVisible={increaseVisible}
+        category={category}
       />
     </motion.div>
   );
