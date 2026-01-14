@@ -5,6 +5,7 @@ import { motion } from 'motion/react';
 import NavBarDesktop from './NavBarDesktop';
 import MobileButton from './MobileButton';
 import MobileMenu from './MobileMenu';
+import Image from 'next/image';
 
 const NavBar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -28,17 +29,15 @@ const NavBar = () => {
       transition={{ duration: 0.6, ease: 'easeOut' }}
     >
       <div className="container mx-auto px-4 lg:px-8">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex justify-around lg:justify-between h-20">
           {/* Logo */}
           <motion.a
             href="#"
-            className="flex items-center space-x-2"
+            className="flex items-center"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            <div className="w-10 h-10 bg-linear-to-br from-[#FF6B6B] to-[#FFE5E5] rounded-full flex items-center justify-center">
-              <span className="text-white font-bold">DP</span> {/* Here should be the real icon */}
-            </div>
+            <Image src="/favicon.ico" alt="Logo" width={50} height={50} />
             <span className="font-['Cormorant'] text-2xl text-foreground">
               Dulce Paladar
             </span>

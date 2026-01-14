@@ -16,7 +16,7 @@ const RightContent = () => {
       transition={{ duration: 0.3 }}
     >
       <Image
-        src="/torta_modelo.jpg"
+        src="/tortas_49.jpeg"
         fill
         alt="Dulce Paladar - Tortas Artesanalesasdzsdsad"
         className="w-full h-full object-cover"
