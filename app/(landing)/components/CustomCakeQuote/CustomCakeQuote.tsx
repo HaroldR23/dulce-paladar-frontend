@@ -3,6 +3,7 @@ import Form from './Form/Form';
 import GalleryInfo from './GalleryInfo';
 import Header from './Header';
 import { FormData } from '../props/formQuoateProps';
+import { getWhatsappUrl } from '../../contants/data';
 
 const CustomCakeQuote = () => {
   const [formData, setFormData] = useState<FormData>({
@@ -33,9 +34,8 @@ ${formData.message || 'Sin mensaje'}
 
 ¡Quedo atento/a a su respuesta!`;
 
-    
-    const whatsappUrl = `https://wa.me/573123052735?text=${encodeURIComponent(message)}`;
-    console.log(whatsappUrl);
+
+    const whatsappUrl = getWhatsappUrl(message);
     window.open(whatsappUrl, '_blank');
   };
 
