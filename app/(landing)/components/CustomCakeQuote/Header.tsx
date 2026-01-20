@@ -9,7 +9,7 @@ const Header = () => {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
     >
-      <span className="inline-flex items-center space-x-2 px-4 py-2 bg-[#FFE5E5] rounded-full text-sm text-[#FF6B6B] mb-4">
+      <span className="inline-flex items-center space-x-2 px-4 py-2 bg-[#FFE5E5] rounded-full text-sm text-[#E94FA3] mb-4">
         <Cake className="w-4 h-4" />
         <span>100% Personalizable</span>
       </span>

@@ -7,10 +7,10 @@ const NavBarDesktop = () => {
         <a
           key={item.name}
           href={item.href}
-          className="text-foreground/80 hover:text-[#FF6B6B] transition-colors duration-200 relative group"
+          className="text-foreground/80 hover:text-[#E94FA3] transition-colors duration-200 relative group"
         >
           {item.name}
-          <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#FF6B6B] group-hover:w-full transition-all duration-300"></span>
+          <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#E94FA3] group-hover:w-full transition-all duration-300"></span>
         </a>
       ))}
     </nav>

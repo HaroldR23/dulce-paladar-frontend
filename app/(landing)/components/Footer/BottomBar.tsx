@@ -7,10 +7,10 @@ const BottomBar = () => {
           © 2025 Dulce Paladar. Todos los derechos reservados.
         </p>
         <div className="flex space-x-6 text-sm">
-          <a href="#" className="text-white/50 hover:text-[#FF6B6B] transition-colors duration-200">
+          <a href="#" className="text-white/50 hover:text-[#E94FA3] transition-colors duration-200">
             Términos y condiciones
           </a>
-          <a href="#" className="text-white/50 hover:text-[#FF6B6B] transition-colors duration-200">
+          <a href="#" className="text-white/50 hover:text-[#E94FA3] transition-colors duration-200">
             Política de privacidad
           </a>
         </div>

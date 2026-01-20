@@ -18,7 +18,7 @@ const MobileMenu = ({ isMobileMenuOpen, setIsMobileMenuOpen }: MobileMenuProps) 
                 <a
                   key={item.name}
                   href={item.href}
-                  className="block py-2 text-foreground/80 hover:text-[#FF6B6B] transition-colors duration-200"
+                  className="block py-2 text-foreground/80 hover:text-[#E94FA3] transition-colors duration-200"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   {item.name}
