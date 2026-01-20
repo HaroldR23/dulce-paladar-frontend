@@ -18,7 +18,7 @@ const Stats = () => {
             whileHover={{ scale: 1.1, rotate: 5 }}
             transition={{ type: 'spring', stiffness: 300 }}
           >
-            <stat.icon className="w-10 h-10 text-[#FF6B6B]" />
+            <stat.icon className="w-10 h-10 text-[#E94FA3]" />
           </motion.div>
           <div className="font-['Cormorant'] text-4xl text-foreground mb-2">
             {stat.value}

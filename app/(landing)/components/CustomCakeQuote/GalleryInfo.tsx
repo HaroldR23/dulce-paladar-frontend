@@ -24,7 +24,7 @@ const GalleryInfo = () => {
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
             >
-              <div className="w-2 h-2 bg-[#FF6B6B] rounded-full"></div>
+              <div className="w-2 h-2 bg-[#E94FA3] rounded-full"></div>
               <span className="text-foreground/80">{item}</span>
             </motion.li>
           ))}

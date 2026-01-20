@@ -23,14 +23,14 @@ export const SelectField = ({
   return (
     <div>
       <label className="flex items-center space-x-2 mb-3 text-foreground">
-        {Icon && <Icon className="w-5 h-5 text-[#FF6B6B]" />}
+        {Icon && <Icon className="w-5 h-5 text-[#E94FA3]" />}
         <span>{label}</span>
       </label>
       <select
         name={name}
         value={value}
         onChange={onChange}
-        className="w-full px-4 py-3 bg-input-background border border-border rounded-2xl focus:outline-none focus:ring-2 focus:ring-[#FF6B6B] transition-all duration-200"
+        className="w-full px-4 py-3 bg-input-background border border-border rounded-2xl focus:outline-none focus:ring-2 focus:ring-[#E94FA3] transition-all duration-200"
         required={required}
       >
         {options.map((option) => (

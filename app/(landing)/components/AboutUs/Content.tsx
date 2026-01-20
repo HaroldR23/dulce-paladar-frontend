@@ -10,7 +10,7 @@ const Content = () => {
       viewport={{ once: true }}
     >
       <h3 className="font-['Cormorant'] text-3xl text-foreground">
-        Creando dulces recuerdos desde 2020
+        Creando dulces recuerdos desde 2016
       </h3>
       
       <p className="text-foreground/70 leading-relaxed">
@@ -32,7 +32,7 @@ const Content = () => {
           sabores que crean recuerdos inolvidables.&rdquo;
         </p>
         <p className="text-sm text-foreground/60 mt-2">
-          — María, fundadora de Dulce Paladar
+          — Necda Rodriguez, fundadora de Dulce Paladar
         </p>
       </div>
 

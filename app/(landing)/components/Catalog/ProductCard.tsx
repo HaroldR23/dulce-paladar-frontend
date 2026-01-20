@@ -72,10 +72,10 @@ const ProductCard = ({
 
         {/* Content */}
         <div className="p-5">
-          <h3 className="font-['Cormorant'] text-xl mb-2 text-foreground group-hover:text-[#FF6B6B] transition-colors duration-200">
+          <h3 className="font-['Cormorant'] text-xl mb-2 text-foreground group-hover:text-[#E94FA3] transition-colors duration-200">
             {name}
           </h3>
-          <span className="text-2xl text-[#FF6B6B]">{price}</span>
+          <span className="text-2xl text-[#E94FA3]">{price}</span>
         </div>
       </motion.div>
 

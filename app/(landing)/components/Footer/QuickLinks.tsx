@@ -17,7 +17,7 @@ const QuickLinks = () => {
           <li key={link.name}>
             <a
               href={`${link.href.toLowerCase().replace(/\s+/g, '-')}`}
-              className="text-white/70 hover:text-[#FF6B6B] transition-colors duration-200 inline-flex items-center group"
+              className="text-white/70 hover:text-[#E94FA3] transition-colors duration-200 inline-flex items-center group"
             >
               <span className="mr-2 group-hover:mr-3 transition-all duration-200">→</span>
               {link.name}

@@ -52,10 +52,10 @@ export const FILLING_OPTIONS = [
 ];
 
 export const GALLERY_IMAGES_INFO = [
-  "/beauty_cake.jpg",
-  "/beers_cake.jpg",
-  "/car_cake.jpg",
-  "/coronabeer_cake.jpg",
+  "/tortas_3.jpeg",
+  "/cupcakes_1.jpeg",
+  "/cupcakes_2.jpeg",
+  "/tortas_4.jpeg",
 ];
 
 export const WHY_CHOOSE_OPTIONS = [

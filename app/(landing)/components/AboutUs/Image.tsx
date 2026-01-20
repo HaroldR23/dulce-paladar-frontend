@@ -11,27 +11,13 @@ const ImageComponent = () => {
     >
       <div className="relative rounded-3xl overflow-hidden shadow-2xl">
         <Image
-          src="/flowers_cake.jpg"
+          src="/tortas_12.jpeg"
           alt='Proper image'
           width={600}
           height={400}
           className="w-full h-full object-cover"
         />
       </div>
-      
-      {/* Decorative Element */}
-      <motion.div
-        className="absolute -bottom-6 -right-6 w-32 h-32 bg-[#FFE5E5] rounded-full blur-3xl opacity-60 -z-10"
-        animate={{
-          scale: [1, 1.2, 1],
-          opacity: [0.6, 0.4, 0.6],
-        }}
-        transition={{
-          duration: 4,
-          repeat: Infinity,
-          ease: 'easeInOut',
-        }}
-      />
     </motion.div>
   );
 };
