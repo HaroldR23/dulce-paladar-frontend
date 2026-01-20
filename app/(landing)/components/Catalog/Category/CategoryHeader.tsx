@@ -7,12 +7,7 @@ const CategoryHeader = ({ category, isExpanded, toggleCategory, info, visibleCou
   return (
     <button 
       onClick={() => toggleCategory(category as CategoryKey)}
-      className="w-full px-6 lg:px-8 py-6 flex items-center justify-between hover:bg-[#FAF7F2] transition-colors duration-200"
-      style={{
-        background: isExpanded
-          ? `linear-gradient(135deg, ${info.color}20 0%, transparent 100%)`
-          : 'transparent',
-      }}
+      className="w-full px-6 lg:px-8 py-6 flex items-center justify-between transition-colors  bg-linear-to-br from-[#f1ddc5] via-[#eedab9] to-[#f3c0a2] duration-200"
     >
       <div className="flex items-center space-x-4">
         <div

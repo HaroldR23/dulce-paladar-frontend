@@ -16,7 +16,9 @@ const CategoryContent = ({ isExpanded, products, hasMore, increaseVisible, categ
         duration: 0.4,
         ease: [0.4, 0, 0.2, 1],
       }}
-      className="overflow-hidden"
+      className="bsolute inset-0 bg-linear-to-br from-[#f1ddc5] via-[#eedab9] to-[#f3c0a2] overflow-hidden"
+      // <div className="absolute inset-0 bg-linear-to-br from-[#f1ddc5] via-[#eedab9] to-[#f3c0a2]">
+
     >
       <div className="px-6 lg:px-8 pb-8 pt-4">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

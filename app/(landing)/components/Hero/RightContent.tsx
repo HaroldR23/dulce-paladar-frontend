@@ -18,7 +18,9 @@ const RightContent = () => {
       <Image
         src="/tortas_49.jpeg"
         fill
-        alt="Dulce Paladar - Tortas Artesanalesasdzsdsad"
+        // width={250}
+        // height={250}
+        alt="Dulce Paladar - Tortas Artesanales"
         className="w-full h-full object-cover"
       />
       

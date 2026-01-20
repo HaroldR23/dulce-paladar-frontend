@@ -6,7 +6,6 @@ import { ProductCardProps } from '../props/productCardProps';
 
 const ProductCard = ({
   name,
-  price,
   image,
   id,
   tags = [],
@@ -71,12 +70,12 @@ const ProductCard = ({
         </div>
 
         {/* Content */}
-        <div className="p-5">
+        {/* <div className="p-5">
           <h3 className="font-['Cormorant'] text-xl mb-2 text-foreground group-hover:text-[#E94FA3] transition-colors duration-200">
             {name}
           </h3>
           <span className="text-2xl text-[#E94FA3]">{price}</span>
-        </div>
+        </div> */}
       </motion.div>
 
       {/* 🔥 Image Modal */}

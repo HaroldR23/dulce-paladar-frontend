@@ -12,18 +12,12 @@ const LeftContent = () => {
     animate={{ opacity: 1, x: 0 }}
     transition={{ duration: 0.8, delay: 0.2 }}
   >
-    <motion.div
-    className="inline-block px-4 py-2 bg-white/80 rounded-full shadow-sm"
-    initial={{ opacity: 0, y: -20 }}
-    animate={{ opacity: 1, y: 0 }}
-    transition={{ duration: 0.6, delay: 0.4 }}
-    >
-    <span className="text-sm text-[#E94FA3]">✨ Hecho con amor, entregado con cuidado</span>
-    </motion.div>
-
-    <h1 className="font-['Cormorant'] text-5xl lg:text-7xl text-foreground leading-tight">
-    Momentos dulces,{' '}
-    <span className="text-[#E94FA3]">hechos a tu medida</span>
+    <h1 className="font-['Cormorant'] text-[#5A3A22] text-3xl lg:text-5xl text-foreground leading-tight">
+    Momentos especiales en la vida,{' '}
+    {/* <span className="text-[#E94FA3]"> */}
+    <span className="text-[#8B5E3C]">
+      endulzados con productos hechos con amor.
+    </span> 
     </h1>
 
     <p className="text-lg text-foreground/70 max-w-xl mx-auto lg:mx-0">
