@@ -14,16 +14,14 @@ const Content = () => {
       </h3>
       
       <p className="text-foreground/70 leading-relaxed">
-        Dulce Paladar nació de una pasión familiar por la repostería artesanal. 
-        Comenzamos en nuestra cocina casera, creando tortas personalizadas para amigos 
-        y familia. Hoy, somos una pastelería reconocida en Palermo, manteniendo el mismo 
-        compromiso con la calidad y el toque casero que nos caracteriza.
+        Dulce Paladar nació de una pasión que me acompaña desde niña: 
+        la magia de transformar ingredientes sencillos en momentos dulces e inolvidables. 
+        Con el tiempo, esos recuerdos de aromas y sabores despertaron la pastelera que siempre vivió en mí. 
       </p>
 
       <p className="text-foreground/70 leading-relaxed">
-        Cada producto que sale de nuestro horno lleva amor, dedicación y los mejores 
-        ingredientes. No hacemos repostería industrial; hacemos arte comestible que 
-        celebra tus momentos más especiales.
+        Hoy, con manos bendecidas por Dios y mucho amor por lo que hago, creo pastelería artesanal desde casa, solo sobre pedido y totalmente personalizada. 
+        Cada creación lleva dedicación, ingredientes de calidad y el propósito de celebrar tus momentos más especiales. No hacemos pastelería industrial, hacemos arte comestible
       </p>
 
       <div className="bg-linear-to-br from-[#FFE5E5] to-[#E6E6FA] rounded-2xl p-6">
