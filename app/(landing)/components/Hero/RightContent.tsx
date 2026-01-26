@@ -5,28 +5,28 @@ import { motion } from 'motion/react';
 const RightContent = () => {
   return (
   <motion.div
-    className="relative"
+    className="relative flex justify-center items-center"
     initial={{ opacity: 0, x: 50 }}
     animate={{ opacity: 1, x: 0 }}
     transition={{ duration: 0.8, delay: 0.4 }}
   >
     <motion.div
-      className="relative aspect-square rounded-3xl overflow-hidden shadow-2xl"
+      className="relative rounded-3xl shadow-2xl overflow-hidden w-fit h-fit"
       whileHover={{ scale: 1.02 }}
       transition={{ duration: 0.3 }}
     >
       <Image
         src="/tortas_49.jpeg"
-        fill
-        // width={250}
-        // height={250}
+        // fill
+        width={400}
+        height={400}
         alt="Dulce Paladar - Tortas Artesanales"
-        className="w-full h-full object-cover"
+        // className="w-full h-full object-cover"
       />
       
       {/* Floating Badge */}
       <motion.div
-        className="absolute top-6 right-6 bg-white rounded-2xl p-4 shadow-xl"
+        className="absolute top-4 right-4 bg-white rounded-2xl p-4 shadow-xl"
         initial={{ opacity: 0, scale: 0 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5, delay: 1 }}

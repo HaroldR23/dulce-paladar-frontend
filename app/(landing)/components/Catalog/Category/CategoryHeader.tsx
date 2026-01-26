@@ -15,10 +15,14 @@ const CategoryHeader = ({ category, isExpanded, toggleCategory, info, visibleCou
           style={{ backgroundColor: info.color }}
         >
           <span className="text-2xl">
-            {category === 'tortas' && '🎂'}
-            {category === 'cupcakes' && '🧁'}
-            {category === 'galletas' && '🍪'}
-            {category === 'merengues' && '🍬'}
+            {category === 'tortas_cumpleaños' && '🎂'}
+            {category === 'tortas_postres' && '🧁'}
+            {category === 'otros' && '🍪'}
+            {category === 'tortas_bodas' && '🍬'}
+            {category === 'tortas_infantiles' && '🎉'}
+            {category === 'regalos' && '🎁'}
+            {category === 'tortas_grados' && '🎓'}
+            {category === 'tortas_bautizos' && '👶'}
           </span>
         </div>
         <div className="text-left">

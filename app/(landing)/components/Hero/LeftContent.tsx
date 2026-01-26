@@ -14,14 +14,13 @@ const LeftContent = () => {
   >
     <h1 className="font-['Cormorant'] text-[#5A3A22] text-3xl lg:text-5xl text-foreground leading-tight">
     Momentos especiales en la vida,{' '}
-    {/* <span className="text-[#E94FA3]"> */}
-    <span className="text-[#8B5E3C]">
+    <span className="text-[#8B5E3C] italic">
       endulzados con productos hechos con amor.
     </span> 
     </h1>
 
     <p className="text-lg text-foreground/70 max-w-xl mx-auto lg:mx-0">
-    Tortas personalizadas, boxes, cookies y clásicos de autor. Entrega y retiro.
+    Tortas personalizadas inspiradas en clásicos de autor, galletas, cupcakes, entre otros.
     </p>
 
     {/* Quick Filter Chips */}

@@ -1,16 +1,12 @@
 import RightContent from './RightContent';
 import LeftContent from './LeftContent';
 import ScrollIndicator from './ScrollIndicator';
-import useIsMobile from '../../hooks/useIsMobile';
-
 
 const Hero = () => {
-  const isMobile = useIsMobile();
-  console.log('isMobile:', isMobile);
+
   return (
-    <section className={`relative min-h-screen flex items-center ${isMobile ? 'pt-60' : 'pt-20'} overflow-hidden`}>
+    <section className="pt-65 pb-25 sm:pt-40 md:pt-45 relative min-h-screen flex items-center justify-center  overflow-hidden">
       {/* Background with gradient overlay */}
-      {/* <div className="absolute inset-0 bg-linear-to-br from-[#FFF8F0] via-[#FAF7F2] to-[#FFE5E5]"> */}
       <div className="absolute inset-0 bg-linear-to-br from-[#f1ddc5] via-[#eedab9] to-[#f3c0a2]">
         <div className="absolute inset-0 opacity-10">
           <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
