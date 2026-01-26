@@ -5,7 +5,7 @@ import { motion } from 'motion/react';
 const RightContent = () => {
   return (
   <motion.div
-    className="relative"
+    className="relative flex justify-center items-center"
     initial={{ opacity: 0, x: 50 }}
     animate={{ opacity: 1, x: 0 }}
     transition={{ duration: 0.8, delay: 0.4 }}

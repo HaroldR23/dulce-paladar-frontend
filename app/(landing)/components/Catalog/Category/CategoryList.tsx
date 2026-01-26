@@ -8,7 +8,7 @@ import { ProductCardProps } from "../../props/productCardProps";
 const CategoryList = () => {
 
   const [expandedCategories, setExpandedCategories] = useState<Set<CategoryKey>>(
-    new Set(['tortas'])
+    new Set(['tortas_cumpleaños'])
   );
 
   const getInitialVisibleCount = (productsByCategory: Record<CategoryKey, ProductCardProps[]>) => {

@@ -44,7 +44,7 @@ ${formData.message || 'Sin mensaje'}
   };
 
   return (
-    <section id="personalizadas" className="py-20 bg-linear-to-b from-white to-[#FAF7F2]">
+    <section id="personalizadas" className="py-20 bg-linear-to-br from-[#f1ddc5] via-[#eedab9] to-[#f3c0a2]">
       <div className="container mx-auto px-4 lg:px-8">
         <Header />
         <div className="max-w-6xl mx-auto">

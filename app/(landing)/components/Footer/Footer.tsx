@@ -1,5 +1,5 @@
 import BottomBar from './BottomBar';
-import Map from './Map';
+// import Map from './Map';
 import ContactInfo from './ContactInfo';
 import QuickLinks from './QuickLinks';
 import BrandSection from './BrandSection';
@@ -15,7 +15,7 @@ const Footer = () => {
           <ContactInfo />
           <PaymentMethods />
         </div>
-        <Map />
+        {/* <Map /> */}
        </div>
       <BottomBar />
     </footer>

@@ -5,10 +5,10 @@ import { GALLERY_IMAGES_INFO, WHY_CHOOSE_OPTIONS } from '../../contants/data';
 const GalleryInfo = () => {
   return (
     <motion.div
-      className="space-y-6"
       initial={{ opacity: 0, x: 50 }}
       whileInView={{ opacity: 1, x: 0 }}
       viewport={{ once: true }}
+      className='flex flex-col justify-center gap-10'
     >
       <div className="bg-linear-to-br from-[#FFE5E5] to-[#E6E6FA] rounded-3xl p-8">
         <h4 className="font-['Cormorant'] text-2xl mb-4 text-foreground">
@@ -30,28 +30,30 @@ const GalleryInfo = () => {
           ))}
         </ul>
       </div>
-
-      <div className="grid grid-cols-2 gap-4">
-        {GALLERY_IMAGES_INFO.map((image, index) => (
-          <motion.div
-            key={index}
-            className="aspect-square rounded-2xl overflow-hidden shadow-lg"
-            initial={{ opacity: 0, scale: 0.8 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true }}
-            transition={{ delay: index * 0.1 }}
-            whileHover={{ scale: 1.05 }}
-          >
-            <Image
-              src={image}
-              width={400}
-              height={400}
-              alt={`Torta ${index + 1}`}
-              className="w-full h-full object-cover"
-            />
-          </motion.div>
-        ))}
+      <div className="relative w-full mx-auto">
+        <Image
+          src="/fondo_pasteleria.jpg"
+          width={1000}
+          height={1000}
+          alt="Fondo pastelería"
+          className="rounded-2xl object-cover"
+        />
+        <Image
+          src="/favicon.ico"
+          width={220}
+          height={220}
+          alt="Dulce Paladar logo"
+          className="
+            absolute
+            bottom-2
+            md:bottom-12
+            left-1/2
+            -translate-x-1/2
+            z-20
+          "
+        />
       </div>
+
     </motion.div>
   );
 };

@@ -21,7 +21,7 @@ const LeftContent = () => {
     </h1>
 
     <p className="text-lg text-foreground/70 max-w-xl mx-auto lg:mx-0">
-    Tortas personalizadas, boxes, cookies y clásicos de autor. Entrega y retiro.
+    Tortas personalizadas inspiradas en clásicos de autor, galletas, cupcakes, entre otros.
     </p>
 
     {/* Quick Filter Chips */}
