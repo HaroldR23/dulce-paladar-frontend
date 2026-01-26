@@ -14,8 +14,7 @@ const LeftContent = () => {
   >
     <h1 className="font-['Cormorant'] text-[#5A3A22] text-3xl lg:text-5xl text-foreground leading-tight">
     Momentos especiales en la vida,{' '}
-    {/* <span className="text-[#E94FA3]"> */}
-    <span className="text-[#8B5E3C]">
+    <span className="text-[#8B5E3C] italic">
       endulzados con productos hechos con amor.
     </span> 
     </h1>

@@ -149,14 +149,7 @@ export const productsByCategory = {
       price: '$40.000',
       image: '/cumpleaños_11.jpeg',
       tags: [],
-    },
-    {
-      id: 12,
-      name: 'Torta de Zanahoria',
-      price: '$40.000',
-      image: '/cumpleaños_12.jpeg',
-      tags: [],
-    },
+    }
   ],
     tortas_bodas: [
     {
@@ -422,6 +415,41 @@ export const productsByCategory = {
       image: '/grados_7.jpeg',
       tags: [],
     },
+    {
+      id: 78,
+      name: 'Torta de Zanahoria',
+      price: '$40.000',
+      image: '/grados_8.jpeg',
+      tags: [],
+    },
+    {
+      id: 79,
+      name: 'Torta de Zanahoria',
+      price: '$40.000',
+      image: '/grados_9.jpeg',
+      tags: [],
+    },
+    {
+      id: 80,
+      name: 'Torta de Zanahoria',
+      price: '$40.000',
+      image: '/grados_10.jpeg',
+      tags: [],
+    },
+    {
+      id: 81,
+      name: 'Torta de Zanahoria',
+      price: '$40.000',
+      image: '/grados_11.jpeg',
+      tags: [],
+    },
+    {
+      id: 82,
+      name: 'Torta de Zanahoria',
+      price: '$40.000',
+      image: '/grados_12.jpeg',
+      tags: [],
+    },
   ],
   tortas_bautizos: [
     {
@@ -465,14 +493,7 @@ export const productsByCategory = {
       price: '$40.000',
       image: '/bautizos_6.jpeg',
       tags: [],
-    },
-    {
-      id: 78,
-      name: 'Torta de Zanahoria',
-      price: '$40.000',
-      image: '/bautizos_7.jpeg',
-      tags: [],
-    },
+    }
   ],
   otros: [
     {
