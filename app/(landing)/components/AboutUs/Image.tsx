@@ -11,7 +11,7 @@ const ImageComponent = () => {
     >
       <div className="relative rounded-3xl overflow-hidden shadow-2xl">
         <Image
-          src="/tortas_12.jpeg"
+          src="/bodas_4.jpeg"
           alt='Proper image'
           width={600}
           height={400}

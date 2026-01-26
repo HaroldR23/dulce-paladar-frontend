@@ -16,7 +16,7 @@ const RightContent = () => {
       transition={{ duration: 0.3 }}
     >
       <Image
-        src="/tortas_49.jpeg"
+        src="/infantiles_23.jpeg"
         // fill
         width={400}
         height={400}
