@@ -1,8 +1,10 @@
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-import { GALLERY_IMAGES_INFO, WHY_CHOOSE_OPTIONS } from '../../contants/data';
+import { WHY_CHOOSE_OPTIONS } from '../../contants/data';
+import useIsMobile from '../../hooks/useIsMobile';
 
 const GalleryInfo = () => {
+  const isMobile =  useIsMobile();
   return (
     <motion.div
       initial={{ opacity: 0, x: 50 }}
@@ -40,8 +42,8 @@ const GalleryInfo = () => {
         />
         <Image
           src="/favicon.ico"
-          width={220}
-          height={220}
+          width={isMobile ? 220 : 300}
+          height={isMobile ? 220 : 300}
           alt="Dulce Paladar logo"
           className="
             absolute
