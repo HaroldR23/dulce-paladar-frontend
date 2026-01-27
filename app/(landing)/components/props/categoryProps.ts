@@ -28,4 +28,4 @@ export type CategoryContentProps = {
   category: CategoryKey;
 };
 
-export type CategoryKey = "tortas_cumpleaños" | "tortas_bodas" | "tortas_infantiles" | "otros" | "tortas_postres" | "regalos" | "tortas_grados" | "tortas_bautizos";
+export type CategoryKey = "tortas_cumpleaños" | "tortas_bodas" | "tortas_infantiles" | "otros" | "tortas_postres" | "regalos" | "tortas_grados" | "tortas_bautizos" | "mesas_dulces";

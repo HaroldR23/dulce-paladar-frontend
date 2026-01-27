@@ -23,6 +23,7 @@ const CategoryHeader = ({ category, isExpanded, toggleCategory, info, visibleCou
             {category === 'regalos' && '🎁'}
             {category === 'tortas_grados' && '🎓'}
             {category === 'tortas_bautizos' && '👶'}
+            {category === 'mesas_dulces' && '🍭'}
           </span>
         </div>
         <div className="text-left">
