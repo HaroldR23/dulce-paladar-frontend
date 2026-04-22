@@ -1,3 +1,5 @@
+'use client';
+
 import { motion } from 'motion/react';
 import Image from 'next/image';
 
@@ -12,7 +14,7 @@ const ImageComponent = () => {
       <div className="relative rounded-3xl overflow-hidden shadow-2xl">
         <Image
           src="/bodas_4.jpeg"
-          alt='Proper image'
+          alt="Necda Rodriguez, fundadora de Dulce Paladar, pastelería artesanal en Villavicencio Meta Colombia"
           width={600}
           height={400}
           className="w-full h-full object-cover"

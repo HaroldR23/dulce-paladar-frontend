@@ -20,7 +20,8 @@ const RightContent = () => {
         // fill
         width={400}
         height={400}
-        alt="Dulce Paladar - Tortas Artesanales"
+        alt="Torta infantil artesanal personalizada elaborada por Dulce Paladar en Villavicencio, Meta"
+        priority
         // className="w-full h-full object-cover"
       />
       

@@ -1,3 +1,5 @@
+'use client';
+
 import { AnimatePresence, motion } from 'motion/react';
 import { Eye, X } from 'lucide-react';
 import Image from 'next/image';

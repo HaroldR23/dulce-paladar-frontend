@@ -1,3 +1,5 @@
+'use client';
+
 import { useState } from "react";
 import CategoryItem from "./CategoryItem";
 import { CategoryKey } from "../../props/categoryProps";
