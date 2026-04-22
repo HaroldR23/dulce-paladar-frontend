@@ -5,12 +5,9 @@ import NavBar from "./(landing)/components/NavBar/NavBar";
 import Footer from "./(landing)/components/Footer/Footer";
 import WhatsAppContact from "./(landing)/components/WhatsAppContact";
 import { Lobster_Two } from 'next/font/google';
+import { metadata as seoMetadata, localBusinessSchema } from "./seo.constants";
 
-export const metadata: Metadata = {
-  title: "Dulce Paladar",
-  description: "Momentos dulces, hechos a tu medida",
-};
-
+export const metadata: Metadata = seoMetadata;
 
 const lobsterTwo = Lobster_Two({
   subsets: ['latin'],
@@ -25,7 +22,13 @@ const RootLayout = ({
   children: React.ReactNode;
 }>) => {
   return (
-    <html lang="en" className={lobsterTwo.variable}>
+    <html lang="es" className={lobsterTwo.variable}>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+        />
+      </head>
       <body className="min-h-screen flex flex-col bg-background text-foreground">
         <NavBar />
         <main className="flex-1">
