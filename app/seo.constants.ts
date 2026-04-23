@@ -65,6 +65,10 @@ export const metadata: Metadata = {
       'Tortas personalizadas, cupcakes y mesas dulces hechos con amor en Villavicencio, Meta, Colombia.',
     images: ['/favicon.ico'],
   },
+  other: {
+    instagram: 'https://www.instagram.com/dulcepaladartortasypostres',
+    facebook: 'https://www.facebook.com/share/17xTQcCaWp/',
+  },
 };
 
 export const localBusinessSchema = {
@@ -121,7 +125,10 @@ export const localBusinessSchema = {
       { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Mesas dulces' } },
     ],
   },
-  sameAs: [],
+  sameAs: [
+    'https://www.instagram.com/dulcepaladartortasypostres',
+    'https://www.facebook.com/share/17xTQcCaWp/',
+  ],
   image: `${BASE_URL}/favicon.ico`,
   foundingDate: '2016',
   founder: { '@type': 'Person', name: 'Necda Rodriguez' },
