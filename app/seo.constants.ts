@@ -5,7 +5,7 @@ export const BASE_URL = 'https://dulcepaladar.net';
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   title: {
-    default: 'Dulce Paladar | Pastelería Artesanal en Villavicencio, Meta',
+    default: 'Dulce Paladar | Pastelería en Villavicencio | Tortas Personalizadas | Galletas Decoradas | Cupcakes | Mesas Dulces | Repostería',
     template: '%s | Dulce Paladar',
   },
   description:
@@ -13,6 +13,11 @@ export const metadata: Metadata = {
   keywords: [
     'pastelería Villavicencio',
     'pasteleria Villavicencio',
+    'pasteleria villavicencio',
+    'tortas villavicencio',
+    'tortas Villavicencio',
+    'tortas Colombia',
+    'pasteles Villavicencio',
     'repostería Villavicencio',
     'reposteria Villavicencio',
     'tortas personalizadas Villavicencio',
@@ -29,6 +34,7 @@ export const metadata: Metadata = {
     'Dulce Paladar',
     'Paladar Dulce',
     'tortas personalizadas Meta',
+    
   ],
   authors: [{ name: 'Dulce Paladar', url: BASE_URL }],
   creator: 'Dulce Paladar',

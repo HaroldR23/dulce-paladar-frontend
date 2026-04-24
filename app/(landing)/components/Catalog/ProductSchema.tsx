@@ -14,6 +14,11 @@ const productCatalogSchema = {
         description:
           'Tortas artesanales de cumpleaños personalizadas en Villavicencio, Meta. Disponibles en Red Velvet, Chocolate, Zanahoria y más.',
         brand: { '@type': 'Brand', name: 'Dulce Paladar' },
+        review: {
+          '@type': 'Review',
+          reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
+          author: { '@type': 'Person', name: 'Cliente Dulce Paladar' },
+        },
       },
     },
     {
@@ -25,6 +30,11 @@ const productCatalogSchema = {
         description:
           'Tortas infantiles temáticas y personalizadas para fiestas de niños en Villavicencio, Meta.',
         brand: { '@type': 'Brand', name: 'Dulce Paladar' },
+        review: {
+          '@type': 'Review',
+          reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
+          author: { '@type': 'Person', name: 'Cliente Dulce Paladar' },
+        },
       },
     },
     {
@@ -36,6 +46,11 @@ const productCatalogSchema = {
         description:
           'Tortas de bodas artesanales y elegantes en Villavicencio, Meta. Diseños personalizados para tu día especial.',
         brand: { '@type': 'Brand', name: 'Dulce Paladar' },
+        review: {
+          '@type': 'Review',
+          reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
+          author: { '@type': 'Person', name: 'Cliente Dulce Paladar' },
+        },
       },
     },
     {
@@ -47,6 +62,11 @@ const productCatalogSchema = {
         description:
           'Mesas dulces personalizadas para eventos y celebraciones en Villavicencio, Meta, Colombia.',
         brand: { '@type': 'Brand', name: 'Dulce Paladar' },
+        review: {
+          '@type': 'Review',
+          reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
+          author: { '@type': 'Person', name: 'Cliente Dulce Paladar' },
+        },
       },
     },
     {
@@ -58,6 +78,11 @@ const productCatalogSchema = {
         description:
           'Cupcakes artesanales, galletas decoradas y postres personalizados en Villavicencio, Meta.',
         brand: { '@type': 'Brand', name: 'Dulce Paladar' },
+        review: {
+          '@type': 'Review',
+          reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
+          author: { '@type': 'Person', name: 'Cliente Dulce Paladar' },
+        },
       },
     },
     {
@@ -69,6 +94,11 @@ const productCatalogSchema = {
         description:
           'Tortas personalizadas para grados y bautizos en Villavicencio, Meta, Colombia.',
         brand: { '@type': 'Brand', name: 'Dulce Paladar' },
+        review: {
+          '@type': 'Review',
+          reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
+          author: { '@type': 'Person', name: 'Cliente Dulce Paladar' },
+        },
       },
     },
   ],
